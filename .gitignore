@@ -1,0 +1,29 @@
+# 临时/缓存文件
+__pycache__/
+*.pyc
+*.pyo
+.claude/
+.DS_Store
+Thumbs.db
+
+# 用户数据 (含个人标定/配置)
+calibrations.json
+上位机/calibrations.json
+上位机/记录/
+
+# 备份
+*_backup.py
+
+# 过程/交接记录
+CONTEXT.md
+docs/adr/
+交接文档*.md
+交付文档*.md
+
+# 生成物/打包文件
+*.zip
+
+# 大型参考文件 (可选提交流程)
+ORP模组使用说明V1.docx
+ORP模组使用说明V1.pdf
+VFA Bicarbonate 测试方法(1).pdf
